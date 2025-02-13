@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  background-color: rgba(10 ,10, 10, 0.1);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sen", serif;
+  font-optical-sizing: auto;
+  color: #22c55e;
+}
+
+.container{
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #18181b;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px 4px #4ade80;
+  
+  max-width: 60vh;
+}
+
+.scoreboard{
+  display: flex;
+  margin-top: 5vh;
+  gap: 40vh;
+}
+
+.cards-container{
+  margin-top: 2vh;
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(3, 35vh);
+  grid-template-rows: repeat(3, 35vh);
+  background-color: #18181b;
+
+}
+
+.card{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: aliceblue;
+  font-size: 30px;
+
+}
+
+.card:hover{
+  border: solid 3px greenyellow;
+  cursor: pointer;
+}
+
+.card-text{
+  background-color: #18181b;
+  width: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 2px 2px 2px rgb(47, 255, 141);
+}
+
+#funny-alien{
+  background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDhteGh1ajhwbGc3ZDJyb3UzYXp6Ym9zMGNlcWY3MmR0bjA2d2R1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUPGcgVgHxmbYPGVkA/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
+
+#pondering-alien{
+  background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWgwcmF1dDBqZndvMDZxMW54ODByOGs1NWs3OXc1MjNsY2E3eGNlaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jVz14bcMoNzqQ8/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
+
+#sleeping-alien{
+  background: url("https://media.giphy.com/media/3ohze0nvICHlP0mfFC/giphy.gif?cid=ecf05e47cj33npjxslkq46ratst9joj3k2vycyabk7stciab&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
+
+#dancing-alien{
+  background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2U4eHBwdDFnbWFlZnlwbTRod2RvdHp2aHZ4bDkzaHB3ZHR3OWhmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUA7b6jjtp6hXAmscU/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+
+}
+
+#spinning-alien{
+  background: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHRhOGZwYWowMGUxcjFpbmIzZHMxdHoxYjVzNDdxMG9tbjl1MmgyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUA7bjOclwbmBP5g1q/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
+
+#drinking-alien{
+  background:url("https://media.giphy.com/media/xT9IgGw3Oc6LPpdOYE/giphy.gif?cid=ecf05e47cj33npjxslkq46ratst9joj3k2vycyabk7stciab&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
+
+
+#suspect-alien{
+  background: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGFuNmxzeDRzN2VvNmNxb3c2cmVwbjY3bGNubmV0YW1zcWZpeWY4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jJtcswP6U7F1o4/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
+
+#high-five-alien{
+  background: url("https://media.giphy.com/media/3ov9k2HNeONK2rGV44/giphy.gif?cid=ecf05e47155xeus03ssuuh6svs0c877krv0kq10xcqxo06xo&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
+
+#wave-alien{
+  background: url("https://media.giphy.com/media/xT9IggGA0DiH7cGqyc/giphy.gif?cid=ecf05e47one3ju03hswtlaeluoyercnrswewblxw29k8tnpt&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35vh;
+}
