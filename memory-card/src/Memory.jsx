@@ -9,8 +9,11 @@ import { useState } from "react"
         const [highScore, setHighScore] = useState(0)
 
         const randomizeCards = () => {
-            const randomArr = ["", " ", " ", " ", " ", " ", " ", " ", " "];
+            const random = [...cards].sort(() => Math.random() -0.5)
+            setCards(random);
         }
+
+        
 
 
         return(
